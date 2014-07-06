@@ -148,5 +148,7 @@ $app->get('/bind/{name}', function($name){
     ->value('name', 'Ribeiro')
     ->bind('rota_ribeiro');
 
-
+/*
+ * Execute app
+ */
 $app->run();
